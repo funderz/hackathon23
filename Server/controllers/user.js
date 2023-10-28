@@ -12,8 +12,11 @@ const signup = async (req, res) => {
   });
 };
 const getUser = async (req, res) => {
-  const users = await User.find();
-  res.send({ users });
+  const user = await User.findById(req.params.id);
+  if (!user) {
+    res.send("there is no user with that id");
+  }
+  res.send({ user });
 };
 const login = async (req, res) => {
   const { email, password } = req.body;
