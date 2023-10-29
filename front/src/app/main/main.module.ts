@@ -14,6 +14,7 @@ import {MatButtonModule} from "@angular/material/button";
 import { CompaignAddUpdateComponent } from './compaign-add-update/compaign-add-update.component';
 import { CompaignDashboardComponent } from './compaign-dashboard/compaign-dashboard.component';
 import {MatDialogModule} from '@angular/material/dialog';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import {MatDialogModule} from '@angular/material/dialog';
     MatIconModule,
     MatTreeModule,
     MatButtonModule,
-    MatDialogModule
+    MatDialogModule,
+    FormsModule
   ],
   exports: [
     LandingPageComponent,

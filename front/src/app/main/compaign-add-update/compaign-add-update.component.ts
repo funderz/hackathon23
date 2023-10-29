@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./compaign-add-update.component.scss']
 })
 export class CompaignAddUpdateComponent {
-
+isService='money'
 }

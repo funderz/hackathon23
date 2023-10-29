@@ -13,12 +13,12 @@
   </div>
   <div class="contain">
     <label>Type</label>
-    <select>
-      <option>Money</option>
-      <option>Service</option>
+    <select [ngModelOptions]="{standalone: true}" [(ngModel)]="isService">
+      <option value='money'>Money</option>
+      <option value='service' >Service</option>
     </select>
   </div>
-  <div class="contain">
+  <div *ngIf="isService==='money'" class="contain">
     <label>Needed Amount</label>
     <input type="number" />
   </div>

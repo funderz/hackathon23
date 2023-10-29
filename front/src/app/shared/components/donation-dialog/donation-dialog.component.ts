@@ -7,5 +7,7 @@ import {MatDialogRef} from "@angular/material/dialog";
   styleUrls: ['./donation-dialog.component.scss']
 })
 export class DonationDialogComponent {
+  price=0
+  isService=false
   constructor(public dialogRef: MatDialogRef<DonationDialogComponent>) {}
 }
