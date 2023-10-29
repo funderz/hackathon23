@@ -4,6 +4,7 @@ import {LandingPageComponent} from "./landing-page/landing-page.component";
 import {MainComponent} from "./main.component";
 import {CompainComponent} from "./compain/compain.component";
 import {CompaignAddUpdateComponent} from "./compaign-add-update/compaign-add-update.component";
+import {CompaignDashboardComponent} from "./compaign-dashboard/compaign-dashboard.component";
 
 const routes: Routes = [
   {
@@ -19,9 +20,13 @@ const routes: Routes = [
         path: "campaign",
         component: CompainComponent,
         //canActivate: [MainGuard],
-      },{
+      }, {
         path: "create-campaign",
         component: CompaignAddUpdateComponent,
+        //canActivate: [MainGuard],
+      }, {
+        path: "dashboard",
+        component: CompaignDashboardComponent,
         //canActivate: [MainGuard],
       },
     ]

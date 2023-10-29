@@ -12,6 +12,7 @@ import { CompainComponent } from './compain/compain.component';
 import {MatTreeModule} from "@angular/material/tree";
 import {MatButtonModule} from "@angular/material/button";
 import { CompaignAddUpdateComponent } from './compaign-add-update/compaign-add-update.component';
+import { CompaignDashboardComponent } from './compaign-dashboard/compaign-dashboard.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { CompaignAddUpdateComponent } from './compaign-add-update/compaign-add-u
     LandingPageComponent,
     MainComponent,
     CompainComponent,
-    CompaignAddUpdateComponent
+    CompaignAddUpdateComponent,
+    CompaignDashboardComponent
   ],
   imports: [
     CommonModule,

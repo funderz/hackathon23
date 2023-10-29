@@ -42,6 +42,11 @@
         width: 564px;
         height: 394px;
         background-color: #E62E44;
+        padding: 0;
+        img{
+          width: 564px;
+          height: 394px;
+        }
       }
 
       .landing-page-section-4-card-details {
@@ -326,6 +331,11 @@
           width: 374px;
           height: 374px;
           background-color: #E62E44;
+          padding: 0!important;
+          img{
+            width: 374px;
+            height: 374px;
+          }
         }
 
         .campaign-container-4-card-category {
@@ -540,8 +550,10 @@
         justify-content: space-between;
 
         .campaign-container-5-card-image {
-          width: 228px;
-          height: 244px;
+          img{
+            width: 228px;
+            height: 244px;
+          }
           /* UI Properties */
           background: #E62E44;
         }
@@ -789,6 +801,10 @@
         min-width: 391px;
         height: 838px;
         background: #E62E44;
+        overflow: auto;
+        img{
+
+        }
       }
     }
 

@@ -88,7 +88,12 @@
       height: 548px;
       /* UI Properties */
       //background: transparent url('img/Replace Image.png') 0% 0% no-repeat padding-box;
-      border-radius: 43px;
+      img {
+        width: 518px;
+        height: 420px;
+        border-radius: 43px;
+      }
+
     }
   }
 
@@ -313,6 +318,11 @@
           width: 564px;
           height: 394px;
           background-color: #E62E44;
+          padding: 0;
+          img{
+            width: 564px;
+            height: 394px;
+          }
         }
 
         .landing-page-section-4-card-details {
@@ -559,9 +569,12 @@
         height: 671px;
 
         .landing-page-section-5-card-image {
-          width: 374px;
-          height: 374px;
           background-color: #E62E44;
+          padding: 0!important;
+          img{
+            width: 374px;
+            height: 374px;
+          }
         }
 
         .landing-page-section-5-card-category {
@@ -776,10 +789,14 @@
         justify-content: space-between;
 
         .landing-page-section-6-card-image {
-          width: 228px;
-          height: 244px;
+
           /* UI Properties */
           background: #E62E44;
+          padding: 0!important;
+          img{
+            width: 228px;
+            height: 244px;
+          }
         }
 
         .landing-page-section-6-card-details {
@@ -915,7 +932,8 @@
         background: #FFFFFF 0% 0% no-repeat padding-box;
         box-shadow: 0px 4px 400px #0000000D;
         margin-top: 24px;
-        p{
+
+        p {
           text-align: left;
           font: normal normal normal 18px/32px Poppins;
           font-family: Poppins, serif !important;
@@ -925,9 +943,11 @@
           letter-spacing: 0px;
           color: #787878;
         }
-        mat-expansion-panel-header{
+
+        mat-expansion-panel-header {
           height: 112px;
-          mat-panel-title{
+
+          mat-panel-title {
             width: 710px;
             height: 30px;
             /* UI Properties */
