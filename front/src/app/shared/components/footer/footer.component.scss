@@ -1,0 +1,116 @@
+.footer-container {
+  height: 413px;
+  /* UI Properties */
+  background: #272727 0% 0% no-repeat padding-box;
+  opacity: 1;
+  width: 100%;
+  margin-top: 150px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 80%;
+    .footer-about {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: space-between;
+      height: 280px;
+
+      .footer-about-logo {
+        width: 121px;
+        height: 58px;
+
+        img {
+          width: 121px;
+          height: 58px;
+        }
+      }
+
+      .footer-about-text {
+        width: 399px;
+        height: 168px;
+        /* UI Properties */
+        span {
+          text-align: left;
+          //font: normal normal normal 18px/30px Poppins;
+          font-family: Poppins, serif;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: normal;
+          line-height: normal;
+          letter-spacing: 0px;
+          color: #FFFFFF;
+        }
+
+      }
+    }
+
+    .footer-links {
+      width: 50%;
+      margin-top: 30px;
+      display: flex;
+      height: 280px;
+      justify-content: space-between;
+      align-items: start;
+
+      .footer-link {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        justify-content: space-between;
+        align-items: start;
+        .footer-link-title{
+          /* UI Properties */
+          span{
+            text-align: left;
+            //font: normal normal medium 18px/20px Poppins;
+            font-family: Poppins, serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+          }
+
+        }
+        .footer-link-text{
+          /* UI Properties */
+          span{
+            text-align: left;
+            //font: normal normal normal 16px/20px Poppins;
+            font-family: Poppins, serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: normal;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            opacity: 0.7;
+          }
+
+        }
+      }
+    }
+  }
+
+  .footer-copy {
+    width: 277px;
+    height: 28px;
+    /* UI Properties */
+    text-align: left;
+    //font: normal normal normal 16px/28px Poppins;
+    font-family: Poppins, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+  }
+}

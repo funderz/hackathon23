@@ -11,13 +11,15 @@ import {MatIconModule} from "@angular/material/icon";
 import { CompainComponent } from './compain/compain.component';
 import {MatTreeModule} from "@angular/material/tree";
 import {MatButtonModule} from "@angular/material/button";
+import { CompaignAddUpdateComponent } from './compaign-add-update/compaign-add-update.component';
 
 
 @NgModule({
   declarations: [
     LandingPageComponent,
     MainComponent,
-    CompainComponent
+    CompainComponent,
+    CompaignAddUpdateComponent
   ],
   imports: [
     CommonModule,
