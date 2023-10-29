@@ -1,1 +1,75 @@
-<p>compaign-add-update works!</p>
+<form>
+  <div class="contain">
+    <label>Project Name</label>
+    <input />
+  </div>
+  <div class="contain">
+    <label>Description</label>
+    <input />
+  </div>
+  <div class="contain">
+    <label>Image</label>
+    <input type="file" />
+  </div>
+  <div class="contain">
+    <label>Type</label>
+    <select>
+      <option>Money</option>
+      <option>Service</option>
+    </select>
+  </div>
+  <div class="contain">
+    <label>Needed Amount</label>
+    <input type="number" />
+  </div>
+  <div class="contain">
+    <label>End Date</label>
+    <input type="date" />
+  </div>
+  <div lass="contain">
+    <button>Create</button>
+  </div>
+</form>
+
+<style>
+  form {
+    padding-block: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 10rem;
+  }
+  input {
+    border: 1px solid grey;
+    height: 56px;
+    width: 90%;
+    padding-left: 10px;
+    width: 100%;
+  }
+  button {
+    background: #e62e44;
+    border-radius: 5px;
+    opacity: 1;
+    width: 100%;
+    height: 56px;
+    color: #ffffff;
+    margin-top: 2rem;
+    border: 1px solid #e62e44;
+  }
+  select {
+    border: 1px solid grey;
+    height: 56px;
+    width: 90%;
+    padding-left: 10px;
+    width: 100%;
+  }
+  .contain {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .hiddenUpload {
+    display: "none";
+  }
+</style>
