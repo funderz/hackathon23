@@ -1,1 +1,79 @@
-<p>donation-dialog works!</p>
+<div class="container">
+  <h1>Envoyer de l'argent</h1>
+  <form>
+    <div style="display: flex; gap: 20px">
+      <div style="display: flex; flex-direction: column; width: 50%">
+        <label>Name</label>
+        <input type="text" />
+      </div>
+      <div style="display: flex; flex-direction: column; width: 50%">
+        <label>Region</label>
+        <select>
+          <option>Tunisie</option>
+          <option>France</option>
+        </select>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; margin-top: 1rem">
+      <label> Montant a envoyer </label>
+      <input type="number" />
+    </div>
+    <div style="display: flex; gap: 20px; margin-top: 1rem">
+      <div style="display: flex; flex-direction: column; width: 50%">
+        <label>you'll pay</label>
+        <div class="input">value</div>
+      </div>
+      <div style="display: flex; flex-direction: column; width: 50%">
+        <label>Exchange ray</label>
+        <div class="input">3.02</div>
+      </div>
+    </div>
+    <div>
+      <button>Continuer vers le paiement</button>
+    </div>
+  </form>
+</div>
+
+<style>
+  .container {
+    padding-block: 2rem;
+    padding-inline: 4rem;
+  }
+  h1 {
+    color: #144167;
+    font: 900;
+  }
+  /* form {
+  } */
+  input {
+    border: 1px solid grey;
+    height: 56px;
+    padding-left: 10px;
+    width: 100%;
+  }
+  select {
+    border: 1px solid grey;
+    height: 56px;
+    padding-left: 10px;
+    width: 100%;
+  }
+  .input {
+    border: 1px solid grey;
+    height: 56px;
+    padding-left: 10px;
+    width: 100%;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+  }
+  button {
+    background: #e62e44;
+    border-radius: 5px;
+    opacity: 1;
+    width: 100%;
+    height: 56px;
+    color: #ffffff;
+    margin-top: 2rem;
+    border: 1px solid #e62e44;
+  }
+</style>
