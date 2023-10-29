@@ -5,6 +5,7 @@
   margin: auto;
   padding-top: 100px;
 
+
   .landing-page-section-1 {
     height: 548px;
     width: 100%;
@@ -18,7 +19,7 @@
 
       .landing-page-section-1-description-small-title {
         text-align: left;
-        font-family: Poppins, serif;
+        font-family: Poppins, serif !important;
         font-size: 16px;
         font-style: normal;
         font-weight: 600;
@@ -30,16 +31,16 @@
       .landing-page-section-1-description-title {
         margin-top: 30px;
         text-align: left;
-        font-family: Poppins, serif;
+        font-family: Poppins, serif !important;
         font-size: 64px;
         font-style: normal;
         font-weight: 600;
         letter-spacing: 0;
+        line-height: 72px;
         color: #101B26;
         opacity: 1;
         width: 747px;
         display: flex;
-        line-height: 72px;
       }
 
       .landing-page-section-1-description-description {
@@ -48,12 +49,12 @@
         height: 118px;
         /* UI Properties */
         text-align: left;
-        font-family: Poppins, serif;
+        font-family: Poppins, serif !important;
         font-size: 18px;
         font-style: normal;
         font-weight: normal;
         letter-spacing: 0;
-        color: #787878;
+        color: #787878 !important;
         display: flex;
         opacity: 1;
       }
@@ -72,7 +73,7 @@
           /* UI Properties */
           text-align: left;
           //font: normal normal medium 18px/30px Poppins;
-          font-family: Poppins, serif;
+          font-family: Poppins, serif !important;
           font-size: 18px;
           font-style: normal;
           font-weight: normal;
@@ -110,11 +111,11 @@
         span {
           text-align: center;
           //font: normal normal medium 16px/30px Poppins;
-          font-family: Poppins, serif;
+          font-family: Poppins, serif !important;
           font-size: 16px;
           font-style: normal;
           font-weight: normal;
-          letter-spacing: 0px;
+          letter-spacing: 0;
           color: #FFFFFF;
         }
       }
@@ -123,7 +124,7 @@
         span {
           text-align: center;
           //font: normal normal 600 40px/60px Poppins;
-          font-family: Poppins, serif;
+          font-family: Poppins, serif !important;
           font-size: 40px;
           font-style: normal;
           font-weight: 600;
@@ -139,6 +140,810 @@
   .landing-page-section-3 {
     height: 248px;
     width: 100%;
+    margin-top: 120px;
+
+    .landing-page-section-3-text {
+      display: flex;
+      flex-direction: column;
+      text-align: start;
+      align-items: start;
+
+      .landing-page-section-3-text-big {
+        text-align: left;
+        font-family: Poppins, serif !important;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 60px;
+        letter-spacing: 0;
+        color: #272727;
+      }
+
+      .landing-page-section-3-text-small {
+        span {
+          text-align: left;
+          //font: normal normal 600 16px/25px Poppins;
+          font-family: Poppins, serif !important;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          letter-spacing: 0;
+          color: #E62E44;
+        }
+      }
+    }
+
+    .landing-page-section-3-category {
+      overflow-x: scroll;
+      padding: 37px;
+      display: flex;
+      width: 826px;
+
+      .landing-page-section-3-category-card {
+        padding: 20px;
+        margin: 10px;
+        min-width: 624px;
+        height: 144px;
+        background: #FFFFFF 0 0 no-repeat padding-box;
+        box-shadow: 5px 3px 124px #0000000D;
+        border-radius: 10px;
+        display: flex;
+
+        .landing-page-section-3-category-card-description {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+
+          .landing-page-section-3-category-card-description-title {
+            text-align: left;
+            //font: normal normal 600 24px/28px Poppins;
+            font-family: Poppins, serif !important;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            letter-spacing: 0;
+            color: #272727;
+          }
+
+          .landing-page-section-3-category-card-description-text {
+            text-align: left;
+            //font: normal normal normal 16px/26px Poppins;
+            font-family: Poppins, serif !important;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: normal;
+            letter-spacing: 0;
+            color: #787878 !important;
+          }
+        }
+
+        .landing-page-section-3-category-card-action {
+          display: flex;
+          align-items: end;
+
+          button {
+            border: none;
+            width: 52px;
+            height: 52px;
+            /* UI Properties */
+            background: #E62E44 0 0 no-repeat padding-box;
+          }
+        }
+      }
+    }
+  }
+
+  .landing-page-section-4 {
     display: flex;
+    flex-direction: column;
+    margin-top: 134px;
+    align-items: center;
+    width: 100%;
+
+    .landing-page-section-4-small-title {
+      width: 74px;
+      height: 24px;
+      margin-bottom: 8px;
+      /* UI Properties */
+      span {
+        text-align: left;
+        //font: normal normal 600 16px/25px Poppins;
+        font-family: Poppins, serif !important;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: 0;
+        color: #E52D43;
+      }
+
+    }
+
+    .landing-page-section-4-big-title {
+
+      height: 74px;
+      /* UI Properties */
+      span {
+        text-align: center;
+        //font: normal normal 600 48px/74px Poppins;
+        font-family: Poppins, serif !important;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 74px;
+        color: #272727;
+      }
+
+    }
+
+    .landing-page-section-4-description {
+      width: 740px;
+      height: 60px;
+      margin-top: 30px;
+      /* UI Properties */
+      span {
+        text-align: center;
+        //font: normal normal normal 18px/30px Poppins;
+        font-family: Poppins, serif !important;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: normal;
+        letter-spacing: 0;
+        color: #868686;
+      }
+
+    }
+
+    .landing-page-section-4-cards {
+      margin-top: 64px;
+      display: flex;
+      width: 1210px;
+      overflow-x: scroll;
+
+      .landing-page-section-4-card {
+        min-width: 1200px;
+        margin: 0 30px;
+        height: 394px;
+        /* UI Properties */
+        background: #FFFFFF 0 0 no-repeat padding-box;
+        box-shadow: 4px 4px 242px #0000000D;
+        border-radius: 10px;
+
+        .landing-page-section-4-card-image {
+          width: 564px;
+          height: 394px;
+          background-color: #E62E44;
+        }
+
+        .landing-page-section-4-card-details {
+          padding: 45px;
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          justify-content: space-between;
+
+          .landing-page-section-4-card-details-title {
+            width: 539px;
+            height: 92px;
+
+            span {
+              text-align: left;
+              //font: normal normal medium 28px/46px Poppins;
+              font-family: Poppins, serif !important;
+              font-size: 28px;
+              font-style: normal;
+              font-weight: 500;
+              letter-spacing: 0;
+              color: #272727;
+            }
+
+          }
+
+          .landing-page-section-4-card-details-persona {
+            width: 80px;
+            height: 21px;
+            /* UI Properties */
+            span {
+              text-align: left;
+              //font: normal normal normal 14px/21px Poppins;
+              font-family: Poppins, serif !important;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: normal;
+              letter-spacing: 0;
+              color: #787878 !important;
+            }
+
+          }
+
+          .landing-page-section-4-card-details-progress {
+            width: 100%
+          }
+
+          .landing-page-section-4-card-details-info {
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+
+            .landing-page-section-4-card-details-info-current {
+              width: 154px;
+              height: 46px;
+              /* UI Properties */
+              span {
+                text-align: left;
+                //font: normal normal 600 24px/46px Poppins;
+                font-family: Poppins, serif !important;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 600;
+                letter-spacing: 0;
+                color: #E62B4A;
+              }
+
+            }
+          }
+
+          .landing-page-section-4-card-details-info-target {
+            width: 191px;
+            height: 21px;
+            /* UI Properties */
+            span {
+              text-align: left;
+              //font: normal normal normal 14px/21px Poppins;
+              font-family: Poppins, serif !important;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: normal;
+              letter-spacing: 0;
+              color: #787878 !important;
+            }
+
+          }
+
+          .landing-page-section-4-card-details-stats {
+            height: 55px;
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+
+            .landing-page-section-4-card-details-stats-backers {
+              display: flex;
+              flex-direction: column;
+              align-items: start;
+              justify-content: space-between;
+
+              .landing-page-section-4-card-details-stats-backers-title {
+                //font: normal normal normal 18px/27px Poppins;
+                font-family: Poppins, serif !important;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: normal;
+                letter-spacing: 0;
+                color: #787878;
+              }
+
+              .landing-page-section-4-card-details-stats-backers-value {
+                text-align: left;
+                font: normal normal medium 28px/46px Poppins;
+                font-family: Poppins, serif !important;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 500;
+                letter-spacing: 0;
+                color: #272727;
+              }
+
+            }
+
+            .landing-page-section-4-card-details-stats-duration {
+              display: flex;
+              flex-direction: column;
+              align-items: start;
+              justify-content: space-between;
+
+              .landing-page-section-4-card-details-stats-duration-title {
+                font-family: Poppins, serif !important;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: normal;
+                letter-spacing: 0;
+                color: #787878;
+              }
+
+              .landing-page-section-4-card-details-stats-duration-value {
+                text-align: left;
+                font: normal normal medium 28px/46px Poppins;
+                font-family: Poppins, serif !important;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 500;
+                letter-spacing: 0;
+                color: #272727;
+              }
+            }
+          }
+
+          .landing-page-section-4-card-details-action {
+            width: 100%;
+            display: flex;
+            align-items: end;
+            justify-content: end;
+
+            button {
+              border: none;
+              width: 52px;
+              height: 52px;
+              /* UI Properties */
+              background: #E62E44 0 0 no-repeat padding-box;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .landing-page-section-5 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 134px;
+    align-items: center;
+    width: 100%;
+
+    .landing-page-section-5-small-title {
+      width: 74px;
+      height: 24px;
+      margin-bottom: 8px;
+      /* UI Properties */
+      span {
+        text-align: left;
+        //font: normal normal 600 16px/25px Poppins;
+        font-family: Poppins, serif !important;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: 0;
+        color: #E52D43;
+      }
+
+    }
+
+    .landing-page-section-5-big-title {
+
+      height: 74px;
+      /* UI Properties */
+      span {
+        text-align: center;
+        //font: normal normal 600 48px/74px Poppins;
+        font-family: Poppins, serif !important;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 74px;
+        color: #272727;
+      }
+
+    }
+
+    .landing-page-section-5-description {
+      width: 740px;
+      height: 60px;
+      margin-top: 30px;
+      /* UI Properties */
+      span {
+        text-align: center;
+        //font: normal normal normal 18px/30px Poppins;
+        font-family: Poppins, serif !important;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: normal;
+        letter-spacing: 0;
+        color: #868686;
+      }
+
+    }
+
+    .landing-page-section-5-cards {
+      margin-top: 64px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      .landing-page-section-5-card {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+        width: 374px;
+        height: 671px;
+
+        .landing-page-section-5-card-image {
+          width: 374px;
+          height: 374px;
+          background-color: #E62E44;
+        }
+
+        .landing-page-section-5-card-category {
+
+          height: 21px;
+          margin-bottom: 12px;
+          /* UI Properties */
+          span {
+            text-align: left;
+            //font: normal normal medium 14px/21px Poppins;
+            font-family: Poppins, serif !important;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            letter-spacing: 0px;
+            color: #E62B4A;
+          }
+
+        }
+
+        .landing-page-section-5-card-title {
+          width: 334px;
+          height: 64px;
+          /* UI Properties */
+          span {
+            text-align: left;
+            font: normal normal medium 20px/32px Poppins;
+            font-family: Poppins, serif !important;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            letter-spacing: 0px;
+            line-height: 40px;
+            color: #272727;
+          }
+
+        }
+
+        .landing-page-section-5-card-persona {
+          width: 334px;
+          height: 21px;
+          margin-top: 20px;
+          /* UI Properties */
+          span {
+            text-align: left;
+            font: normal normal normal 14px/21px Poppins;
+            font-family: Poppins, serif !important;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: normal;
+            letter-spacing: 0px;
+            color: #787878;
+          }
+
+        }
+
+        .landing-page-section-5-card-progress {
+          width: 100%
+        }
+
+        .landing-page-section-5-card-info {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+
+          .landing-page-section-5-card-info-price {
+            .landing-page-section-5-card-info-price-value {
+              //font: normal normal 600 20px/32px Poppins;
+              font-family: Poppins, serif !important;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 600;
+              letter-spacing: 0px;
+              color: #E62B4A;
+            }
+
+            .landing-page-section-5-card-info-price-type {
+              //font: normal normal normal 20px/32px Poppins;
+              font-family: Poppins, serif !important;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: normal;
+              letter-spacing: 0px;
+              color: #787878;
+            }
+          }
+
+          .landing-page-section-5-card-info-percentage {
+            width: 42px;
+            height: 32px;
+            /* UI Properties */
+            span {
+              text-align: left;
+              //font: normal normal normal 20px/32px Poppins;
+              font-family: Poppins, serif !important;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: normal;
+              letter-spacing: 0px;
+              color: #787878;
+            }
+
+          }
+        }
+
+        .landing-page-section-5-card-days {
+
+          height: 32px;
+          /* UI Properties */
+
+          span {
+            text-align: left;
+            //font: normal normal normal 20px/32px Poppins;
+            font-family: Poppins, serif !important;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: normal;
+            letter-spacing: 0px;
+            color: #272727;
+          }
+        }
+      }
+
+
+    }
+  }
+
+  .landing-page-section-6 {
+    margin-top: 160px;
+    width: 100%;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+
+    .landing-page-section-6-small-title {
+      width: 53px;
+      height: 24px;
+      /* UI Properties */
+      span {
+        text-align: left;
+        //font: normal normal 600 16px/25px Poppins;
+        font-family: Poppins, serif !important;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: 0px;
+        color: #E62B4A;
+      }
+
+    }
+
+    .landing-page-section-6-description {
+      display: flex;
+      justify-content: space-between;
+
+
+      .landing-page-section-6-description-title {
+
+        height: 222px;
+        /* UI Properties */
+        span {
+          text-align: justify-all;
+          line-height: 90px;
+          font: normal normal 600 48px/74px Poppins;
+          font-family: Poppins, serif !important;
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 600;
+          color: #272727
+        }
+
+      }
+
+      .landing-page-section-6-description-sub {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .landing-page-section-6-description-sub-text {
+          width: 541px;
+          height: 60px;
+          /* UI Properties */
+          span {
+            text-align: left;
+            //font: normal normal normal 18px/30px Poppins;
+            font-family: Poppins, serif !important;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: normal;
+            letter-spacing: 0px;
+            color: #787878;
+          }
+
+        }
+      }
+    }
+
+    .landing-page-section-6-cards {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+
+      .landing-page-section-6-card {
+        width: 580px;
+        height: 244px;
+        /* UI Properties */
+        background: #FFFFFF 0% 0 no-repeat padding-box;
+        box-shadow: 0px 4px 400px #0000000D;
+        display: flex;
+        justify-content: space-between;
+
+        .landing-page-section-6-card-image {
+          width: 228px;
+          height: 244px;
+          /* UI Properties */
+          background: #E62E44;
+        }
+
+        .landing-page-section-6-card-details {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          padding-top: 10px;
+
+          .landing-page-section-6-card-details-title {
+            width: 312px;
+            height: 65px;
+            padding: 10px;
+            /* UI Properties */
+            span {
+              text-align: left;
+              //font: normal normal medium 20px/30px Poppins;
+              font-family: Poppins, serif !important;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 500;
+              letter-spacing: 0px;
+              color: #272727;
+            }
+
+          }
+
+          .landing-page-section-6-card-details-description {
+            width: 312px;
+            height: 72px;
+            padding: 10px;
+            /* UI Properties */
+            span {
+              text-align: left;
+              //font: normal normal normal 14px/24px Poppins;
+              font-family: Poppins, serif !important;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: normal;
+              letter-spacing: 0px;
+              color: #787878;
+            }
+
+          }
+
+          .landing-page-section-6-card-details-action {
+            width: 100%;
+            display: flex;
+            align-items: end;
+            justify-content: end;
+
+            button {
+              border: none;
+              width: 52px;
+              height: 52px;
+              /* UI Properties */
+              background: #E62E44 0 0 no-repeat padding-box;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .landing-page-section-7 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 134px;
+    align-items: center;
+    width: 100%;
+
+    .landing-page-section-7-small-title {
+      width: 74px;
+      height: 24px;
+      margin-bottom: 8px;
+      /* UI Properties */
+      span {
+        text-align: left;
+        //font: normal normal 600 16px/25px Poppins;
+        font-family: Poppins, serif !important;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: 0;
+        color: #E52D43;
+      }
+
+    }
+
+    .landing-page-section-7-big-title {
+
+      height: 74px;
+      /* UI Properties */
+      span {
+        text-align: center;
+        //font: normal normal 600 48px/74px Poppins;
+        font-family: Poppins, serif !important;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 74px;
+        color: #272727;
+      }
+
+    }
+
+    .landing-page-section-7-description {
+      width: 574px;
+      height: 69px;
+      margin-top: 30px;
+      /* UI Properties */
+      span {
+        text-align: center;
+        //font: normal normal normal 18px/30px Poppins;
+        font-family: Poppins, serif !important;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: normal;
+        letter-spacing: 0;
+        color: #868686;
+      }
+
+    }
+
+    mat-accordion {
+      width: 100%;
+
+      mat-expansion-panel {
+        width: 100%;
+
+        /* UI Properties */
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 400px #0000000D;
+        margin-top: 24px;
+        p{
+          text-align: left;
+          font: normal normal normal 18px/32px Poppins;
+          font-family: Poppins, serif !important;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: normal;
+          letter-spacing: 0px;
+          color: #787878;
+        }
+        mat-expansion-panel-header{
+          height: 112px;
+          mat-panel-title{
+            width: 710px;
+            height: 30px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal medium 28px/32px Poppins;
+            font-family: Poppins, serif !important;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 500;
+            letter-spacing: 0px;
+            color: #272727;
+          }
+        }
+
+      }
+    }
   }
 }
+
