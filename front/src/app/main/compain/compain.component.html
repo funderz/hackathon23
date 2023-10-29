@@ -36,7 +36,7 @@
           </div>
         </div>
         <div class="landing-page-section-4-card-details-action">
-          <button class="text-white">/</button>
+          <button  class="text-white">/</button>
         </div>
       </div>
     </div>
@@ -44,7 +44,7 @@
   <div class="campaign-container-2">
     <div class="d-flex justify-content-between mt-5" style="width: 30%">
       <button (click)="showOptions=!showOptions" class="option border-0">Autre option</button>
-      <button class="donate border-0">Donate</button>
+      <button (click)="open()" class="donate border-0">Donate</button>
     </div>
   </div>
   <div *ngIf="showOptions" class="campaign-container-3 mt-5">

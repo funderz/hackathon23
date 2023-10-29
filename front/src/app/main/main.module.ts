@@ -13,7 +13,7 @@ import {MatTreeModule} from "@angular/material/tree";
 import {MatButtonModule} from "@angular/material/button";
 import { CompaignAddUpdateComponent } from './compaign-add-update/compaign-add-update.component';
 import { CompaignDashboardComponent } from './compaign-dashboard/compaign-dashboard.component';
-
+import {MatDialogModule} from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -31,7 +31,8 @@ import { CompaignDashboardComponent } from './compaign-dashboard/compaign-dashbo
     MatExpansionModule,
     MatIconModule,
     MatTreeModule,
-    MatButtonModule
+    MatButtonModule,
+    MatDialogModule
   ],
   exports: [
     LandingPageComponent,

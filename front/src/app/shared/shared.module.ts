@@ -4,6 +4,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import {RouterLink} from "@angular/router";
 import { FooterComponent } from './components/footer/footer.component';
+import { DonationDialogComponent } from './components/donation-dialog/donation-dialog.component';
 
 
 
@@ -11,7 +12,8 @@ import { FooterComponent } from './components/footer/footer.component';
   declarations: [
     HeaderComponent,
     NotFoundComponent,
-    FooterComponent
+    FooterComponent,
+    DonationDialogComponent
   ],
     imports: [
         CommonModule,
@@ -20,7 +22,8 @@ import { FooterComponent } from './components/footer/footer.component';
   exports: [
     NotFoundComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    DonationDialogComponent
   ]
 })
 export class SharedModule { }
