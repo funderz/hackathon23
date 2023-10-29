@@ -2,6 +2,7 @@ import {NgModule} from "@angular/core";
 import {RouterModule, Routes} from "@angular/router";
 import {LandingPageComponent} from "./landing-page/landing-page.component";
 import {MainComponent} from "./main.component";
+import {CompainComponent} from "./compain/compain.component";
 
 const routes: Routes = [
   {
@@ -11,6 +12,10 @@ const routes: Routes = [
       {
         path: "home",
         component: LandingPageComponent,
+        //canActivate: [MainGuard],
+      },{
+        path: "campaign",
+        component: CompainComponent,
         //canActivate: [MainGuard],
       },
     ]

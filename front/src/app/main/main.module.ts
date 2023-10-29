@@ -8,12 +8,16 @@ import {SharedModule} from "../shared/shared.module";
 import {MatProgressBarModule} from "@angular/material/progress-bar";
 import {MatExpansionModule} from "@angular/material/expansion";
 import {MatIconModule} from "@angular/material/icon";
+import { CompainComponent } from './compain/compain.component';
+import {MatTreeModule} from "@angular/material/tree";
+import {MatButtonModule} from "@angular/material/button";
 
 
 @NgModule({
   declarations: [
     LandingPageComponent,
-    MainComponent
+    MainComponent,
+    CompainComponent
   ],
   imports: [
     CommonModule,
@@ -21,7 +25,9 @@ import {MatIconModule} from "@angular/material/icon";
     SharedModule,
     MatProgressBarModule,
     MatExpansionModule,
-    MatIconModule
+    MatIconModule,
+    MatTreeModule,
+    MatButtonModule
   ],
   exports: [
     LandingPageComponent,

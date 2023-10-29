@@ -1,0 +1,356 @@
+<div class="campaign-container">
+  <div class="campaign-container-1">
+    <span>Mas Adif : Keeb - 60% Mechanical Keyboard</span>
+  </div>
+  <div class="landing-page-section-4">
+    <div class="landing-page-section-4-card row mx-0">
+      <div class="col-6  landing-page-section-4-card-image">
+        //TODO:IMAGE
+      </div>
+      <div class="col-6 landing-page-section-4-card-details">
+        <div class="landing-page-section-4-card-details-title">
+          <span>Mas Adif : Keeb - 60% Mechanical Keyboard</span>
+        </div>
+        <div class="landing-page-section-4-card-details-persona">
+          <span>By Mas Adif</span>
+        </div>
+        <div class="landing-page-section-4-card-details-progress">
+          <mat-progress-bar color="accent" mode="determinate" value="70"></mat-progress-bar>
+        </div>
+        <div class="landing-page-section-4-card-details-info">
+          <div class="landing-page-section-4-card-details-info-current">
+            <span>55,000 DT</span>
+          </div>
+          <div class="landing-page-section-4-card-details-info-target">
+            <span>80,000 DT Targeted Goal</span>
+          </div>
+        </div>
+        <div class="landing-page-section-4-card-details-stats">
+          <div class="landing-page-section-4-card-details-stats-backers">
+            <div class="landing-page-section-4-card-details-stats-backers-title">Backers</div>
+            <div class="landing-page-section-4-card-details-stats-backers-value">4,200</div>
+          </div>
+          <div class="landing-page-section-4-card-details-stats-duration">
+            <div class="landing-page-section-4-card-details-stats-duration-title">Duration</div>
+            <div class="landing-page-section-4-card-details-stats-duration-value">25D : 23H : 56M</div>
+          </div>
+        </div>
+        <div class="landing-page-section-4-card-details-action">
+          <button class="text-white">/</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="campaign-container-2">
+    <div class="d-flex justify-content-between mt-5" style="width: 30%">
+      <button (click)="showOptions=!showOptions" class="option border-0">Autre option</button>
+      <button class="donate border-0">Donate</button>
+    </div>
+  </div>
+  <div *ngIf="showOptions" class="campaign-container-3 mt-5">
+
+    <mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
+      <!-- This is the tree node template for leaf nodes -->
+      <mat-tree-node *matTreeNodeDef="let node" matTreeNodePadding>
+        <!-- use a disabled button to provide padding for tree leaf -->
+        <button mat-icon-button></button>
+        {{node.name}}
+      </mat-tree-node>
+      <mat-tree-node *matTreeNodeDef="let node;when: hasChild" matTreeNodePadding>
+        <button [attr.aria-label]="'Toggle ' + node.name" mat-icon-button
+                matTreeNodeToggle>
+          <mat-icon class="mat-icon-rtl-mirror">
+            {{treeControl.isExpanded(node) ? 'expand_more' : 'chevron_right'}}
+          </mat-icon>
+        </button>
+        {{node.name}}
+      </mat-tree-node>
+    </mat-tree>
+  </div>
+  <div class="campaign-container-7">
+    <div class="campaign-container-7-small-title">
+      <span>Story behind</span>
+    </div>
+    <div class="campaign-container-7-story">
+      <div class="campaign-container-7-story-text">
+        <div class="campaign-container-7-story-text-title">
+          <span>Découvrir plus de projet</span>
+        </div>
+        <div class="campaign-container-7-story-text-details">
+          <div class="campaign-container-7-story-text-details-1"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></div>
+          <div class="campaign-container-7-story-text-details-1"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></div>
+          <div class="campaign-container-7-story-text-details-1"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></div>
+          <div class="campaign-container-7-story-text-details-1"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></div>
+        </div>
+      </div>
+      <div class="campaign-container-7-story-image"></div>
+    </div>
+  </div>
+  <div class="campaign-container-4">
+    <div class="campaign-container-4-small-title">
+      <span>Projet</span>
+    </div>
+    <div class="campaign-container-4-big-title">
+      <span>Produit régional</span>
+    </div>
+    <div class="campaign-container-4-description">
+      <span>
+Nous sommes une entreprise de financement participatif fondée pour aider les startups qui souhaitent démarrer leur entreprise à accélérer leurs réalisations      </span>
+    </div>
+    <div class="campaign-container-4-cards">
+      <div class="campaign-container-4-card">
+        <div class="px-2 campaign-container-4-card-image"></div>
+        <div class="px-2 mt-2 campaign-container-4-card-category">
+          <span>DESIGN & TECH</span>
+        </div>
+        <div class="px-2 campaign-container-4-card-title">
+          <span>Monitor : Elji Lightsaber Pro Motion Display 32”</span>
+        </div>
+        <div class="px-2 campaign-container-4-card-persona"><span>By Funderz</span></div>
+        <div class="px-2 campaign-container-4-card-progress">
+          <mat-progress-bar color="accent" mode="determinate" value="80"></mat-progress-bar>
+        </div>
+        <div class="px-2 campaign-container-4-card-info">
+          <div class="campaign-container-4-card-info-price">
+            <div>
+              <span class="campaign-container-4-card-info-price-value">2,000 DT</span>
+              <span
+                class="campaign-container-4-card-info-price-type">Raised</span>
+            </div>
+
+
+          </div>
+          <div class="campaign-container-4-card-info-percentage"><span>80%</span></div>
+        </div>
+        <div class="px-2 campaign-container-4-card-days">
+          <span>10 Days left</span>
+        </div>
+
+      </div>
+      <div class="campaign-container-4-card">
+        <div class="px-2 campaign-container-4-card-image"></div>
+        <div class="px-2 mt-2 campaign-container-4-card-category">
+          <span>DESIGN & TECH</span>
+        </div>
+        <div class="px-2 campaign-container-4-card-title">
+          <span>Sasapu : Smarthome Robot Cleaning For Better Life</span>
+        </div>
+        <div class="px-2 campaign-container-4-card-persona"><span>By Funderz</span></div>
+        <div class="px-2 campaign-container-4-card-progress">
+          <mat-progress-bar color="accent" mode="determinate" value="112"></mat-progress-bar>
+        </div>
+        <div class="px-2 campaign-container-4-card-info">
+          <div class="campaign-container-4-card-info-price">
+            <div>
+              <span class="campaign-container-4-card-info-price-value">12,000 DT</span>
+              <span
+                class="campaign-container-4-card-info-price-type">Raised</span>
+            </div>
+
+
+          </div>
+          <div class="campaign-container-4-card-info-percentage"><span>112%</span></div>
+        </div>
+        <div class="px-2 campaign-container-4-card-days">
+          <span>12 Days left</span>
+        </div>
+
+      </div>
+      <div class="campaign-container-4-card">
+        <div class="px-2 campaign-container-4-card-image"></div>
+        <div class="px-2 mt-2 campaign-container-4-card-category">
+          <span>DESIGN & TECH</span>
+        </div>
+        <div class="px-2 campaign-container-4-card-title">
+          <span>Jimbot : The Best Gaming Handheld For Boomer</span>
+        </div>
+        <div class="px-2 campaign-container-4-card-persona"><span>By Funderz</span></div>
+        <div class="px-2 campaign-container-4-card-progress">
+          <mat-progress-bar color="accent" mode="determinate" value="50"></mat-progress-bar>
+        </div>
+        <div class="px-2 campaign-container-4-card-info">
+          <div class="campaign-container-4-card-info-price">
+            <div>
+              <span class="campaign-container-4-card-info-price-value">9,000 DT</span>
+              <span
+                class="campaign-container-4-card-info-price-type">Raised</span>
+            </div>
+
+
+          </div>
+          <div class="campaign-container-4-card-info-percentage"><span>50%</span></div>
+        </div>
+        <div class="px-2 campaign-container-4-card-days">
+          <span>14 Days left</span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="campaign-container-5">
+    <div class="campaign-container-5-small-title">
+      <span>Article</span>
+    </div>
+    <div class="campaign-container-5-description">
+      <div class="campaign-container-5-description-title">
+        <span>Des articles qui peuvent faire croître votre entreprise.</span>
+      </div>
+      <div class="campaign-container-5-description-sub">
+        <div class="campaign-container-5-description-sub-text"><span>La lecture est une fenêtre sur la connaissance, apprenons et évoluons ensemble, ne laissez pas vos idées rester bloquées dans votre esprit.</span>
+        </div>
+        <div class="campaign-container-5-description-sub-text"><span>Reading is the process of taking in the sense or meaning of letters, symbols, etc., especially by sight or touch.</span>
+        </div>
+      </div>
+    </div>
+    <div class="campaign-container-5-cards">
+      <div class="campaign-container-5-card">
+        <div class="campaign-container-5-card-image"></div>
+        <div class="campaign-container-5-card-details">
+          <div class="campaign-container-5-card-details-title">
+            <span>Comment parler de votre projet de manière honnête ...</span>
+          </div>
+          <div class="campaign-container-5-card-details-description">
+            <span>Nos conseils pour créer une page de projet qui soit honnête, ouverte et transparente à la fois dans le texte et les éléments visuels.</span>
+          </div>
+          <div class="campaign-container-5-card-details-action">
+            <button>/</button>
+          </div>
+        </div>
+      </div>
+      <div class="campaign-container-5-card">
+        <div class="campaign-container-5-card-image"></div>
+        <div class="campaign-container-5-card-details">
+          <div class="campaign-container-5-card-details-title">
+            <span>Activités à essayer cet hiver pour stimuler productivité.</span>
+          </div>
+          <div class="campaign-container-5-card-details-description">
+            <span>L'hiver est la saison de l'année où de nombreuses personnes commencent à passer la majeure partie de leur temps ... l'intérieur. Vous voudrez sortir à l'extérieur pour...</span>
+          </div>
+          <div class="campaign-container-5-card-details-action">
+            <button>/</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="campaign-container-5-cards">
+      <div class="campaign-container-5-card">
+        <div class="campaign-container-5-card-image"></div>
+        <div class="campaign-container-5-card-details">
+          <div class="campaign-container-5-card-details-title">
+            <span>Un guide interactif pour débutants sur le Google ... Agenda.</span>
+          </div>
+          <div class="campaign-container-5-card-details-description">
+            <span>Google Calendar provides users with an easy way to track their day-to-day tasks with minimal issues.</span>
+          </div>
+          <div class="campaign-container-5-card-details-action">
+            <button>/</button>
+          </div>
+        </div>
+      </div>
+      <div class="campaign-container-5-card">
+        <div class="campaign-container-5-card-image"></div>
+        <div class="campaign-container-5-card-details">
+          <div class="campaign-container-5-card-details-title">
+            <span>Y a-t-il un moment idéal pour les réunions</span>
+          </div>
+          <div class="campaign-container-5-card-details-description">
+            <span>Are you encountering meeting mortification? There are ways to tweak the day and time of your meetings</span>
+          </div>
+          <div class="campaign-container-5-card-details-action">
+            <button>/</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="campaign-container-6">
+    <div class="campaign-container-6-small-title">
+      <span>FAQ</span>
+    </div>
+    <div class="campaign-container-6-big-title">
+      <span>Foire aux questions</span>
+    </div>
+    <div class="campaign-container-6-description">
+      <span>
+Obtenez des réponses aux questions fréquemment posées sur le financement participatif.     </span>
+    </div>
+    <mat-accordion>
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Qu'est-ce que le financement participatif ?
+          </mat-panel-title>
+          <mat-icon>add</mat-icon>
+        </mat-expansion-panel-header>
+        <p>Le financement participatif est l'utilisation de petites sommes d'argent provenant d'un grand nombre
+          d'individus pour financer un nouveau projet d'entreprise. Le financement participatif tire parti de la
+          facilité d'accès aux vastes réseaux de personnes via les médias sociaux et les sites de financement
+          participatif pour mettre en relation les investisseurs et les entrepreneurs, avec le potentiel d'encourager
+          l'entrepreneuriat en élargissant le cercle traditionnel des propriétaires, des proches et des capitalistes de
+          risque.</p>
+      </mat-expansion-panel>
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Comment fonctionne le financement participatif ?
+          </mat-panel-title>
+          <mat-icon>add</mat-icon>
+
+
+        </mat-expansion-panel-header>
+        <p>Le financement participatif est l'utilisation de petites sommes d'argent provenant d'un grand nombre
+          d'individus pour financer un nouveau projet d'entreprise. Le financement participatif tire parti de la
+          facilité d'accès aux vastes réseaux de personnes via les médias sociaux et les sites de financement
+          participatif pour mettre en relation les investisseurs et les entrepreneurs, avec le potentiel d'encourager
+          l'entrepreneuriat en élargissant le cercle traditionnel des propriétaires, des proches et des capitalistes de
+          risque.</p>
+      </mat-expansion-panel>
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Il existe combien de types de financement participatif ?
+          </mat-panel-title>
+          <mat-icon>add</mat-icon>
+
+        </mat-expansion-panel-header>
+        <p>Le financement participatif est l'utilisation de petites sommes d'argent provenant d'un grand nombre
+          d'individus pour financer un nouveau projet d'entreprise. Le financement participatif tire parti de la
+          facilité d'accès aux vastes réseaux de personnes via les médias sociaux et les sites de financement
+          participatif pour mettre en relation les investisseurs et les entrepreneurs, avec le potentiel d'encourager
+          l'entrepreneuriat en élargissant le cercle traditionnel des propriétaires, des proches et des capitalistes de
+          risque.</p>
+      </mat-expansion-panel>
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Comment créer un projet ?
+          </mat-panel-title>
+          <mat-icon>add</mat-icon>
+
+        </mat-expansion-panel-header>
+        <p>Le financement participatif est l'utilisation de petites sommes d'argent provenant d'un grand nombre
+          d'individus pour financer un nouveau projet d'entreprise. Le financement participatif tire parti de la
+          facilité d'accès aux vastes réseaux de personnes via les médias sociaux et les sites de financement
+          participatif pour mettre en relation les investisseurs et les entrepreneurs, avec le potentiel d'encourager
+          l'entrepreneuriat en élargissant le cercle traditionnel des propriétaires, des proches et des capitalistes de
+          risque.</p>
+      </mat-expansion-panel>
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            "Quand est-ce que Projet se terminera ?
+          </mat-panel-title>
+          <mat-icon>add</mat-icon>
+
+        </mat-expansion-panel-header>
+        <p>Le financement participatif est l'utilisation de petites sommes d'argent provenant d'un grand nombre
+          d'individus pour financer un nouveau projet d'entreprise. Le financement participatif tire parti de la
+          facilité d'accès aux vastes réseaux de personnes via les médias sociaux et les sites de financement
+          participatif pour mettre en relation les investisseurs et les entrepreneurs, avec le potentiel d'encourager
+          l'entrepreneuriat en élargissant le cercle traditionnel des propriétaires, des proches et des capitalistes de
+          risque.</p>
+      </mat-expansion-panel>
+
+    </mat-accordion>
+  </div>
+</div>

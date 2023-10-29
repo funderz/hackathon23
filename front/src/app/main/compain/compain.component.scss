@@ -1,0 +1,796 @@
+.campaign-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  padding-top: 100px;
+
+  .campaign-container-1 {
+    width: 887px;
+    height: 176px;
+    /* UI Properties */
+    span {
+      text-align: left;
+      font: normal normal 600 48px/70px Poppins;
+      letter-spacing: 0px;
+      font-family: Poppins, serif !important;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      color: #101B26;
+    }
+
+  }
+
+  .landing-page-section-4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 134px;
+    align-items: center;
+    width: 100%;
+
+    .landing-page-section-4-card {
+      width: 100%;
+      margin: 0 30px;
+      height: 394px;
+      /* UI Properties */
+      background: #FFFFFF 0 0 no-repeat padding-box;
+      box-shadow: 4px 4px 242px #0000000D;
+      border-radius: 10px;
+
+      .landing-page-section-4-card-image {
+        width: 564px;
+        height: 394px;
+        background-color: #E62E44;
+      }
+
+      .landing-page-section-4-card-details {
+        padding: 45px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+
+        .landing-page-section-4-card-details-title {
+          width: 539px;
+          height: 92px;
+
+          span {
+            text-align: left;
+            //font: normal normal medium 28px/46px Poppins;
+            font-family: Poppins, serif !important;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 500;
+            letter-spacing: 0;
+            color: #272727;
+          }
+
+        }
+
+        .landing-page-section-4-card-details-persona {
+          width: 80px;
+          height: 21px;
+          /* UI Properties */
+          span {
+            text-align: left;
+            //font: normal normal normal 14px/21px Poppins;
+            font-family: Poppins, serif !important;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: normal;
+            letter-spacing: 0;
+            color: #787878 !important;
+          }
+
+        }
+
+        .landing-page-section-4-card-details-progress {
+          width: 100%
+        }
+
+        .landing-page-section-4-card-details-info {
+          width: 70%;
+          display: flex;
+          justify-content: space-between;
+
+          .landing-page-section-4-card-details-info-current {
+            width: 154px;
+            height: 46px;
+            /* UI Properties */
+            span {
+              text-align: left;
+              //font: normal normal 600 24px/46px Poppins;
+              font-family: Poppins, serif !important;
+              font-size: 24px;
+              font-style: normal;
+              font-weight: 600;
+              letter-spacing: 0;
+              color: #E62B4A;
+            }
+
+          }
+        }
+
+        .landing-page-section-4-card-details-info-target {
+          width: 191px;
+          height: 21px;
+          /* UI Properties */
+          span {
+            text-align: left;
+            //font: normal normal normal 14px/21px Poppins;
+            font-family: Poppins, serif !important;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: normal;
+            letter-spacing: 0;
+            color: #787878 !important;
+          }
+
+        }
+
+        .landing-page-section-4-card-details-stats {
+          height: 55px;
+          width: 70%;
+          display: flex;
+          justify-content: space-between;
+
+          .landing-page-section-4-card-details-stats-backers {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-between;
+
+            .landing-page-section-4-card-details-stats-backers-title {
+              //font: normal normal normal 18px/27px Poppins;
+              font-family: Poppins, serif !important;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: normal;
+              letter-spacing: 0;
+              color: #787878;
+            }
+
+            .landing-page-section-4-card-details-stats-backers-value {
+              text-align: left;
+              font: normal normal medium 28px/46px Poppins;
+              font-family: Poppins, serif !important;
+              font-size: 28px;
+              font-style: normal;
+              font-weight: 500;
+              letter-spacing: 0;
+              color: #272727;
+            }
+
+          }
+
+          .landing-page-section-4-card-details-stats-duration {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-between;
+
+            .landing-page-section-4-card-details-stats-duration-title {
+              font-family: Poppins, serif !important;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: normal;
+              letter-spacing: 0;
+              color: #787878;
+            }
+
+            .landing-page-section-4-card-details-stats-duration-value {
+              text-align: left;
+              font: normal normal medium 28px/46px Poppins;
+              font-family: Poppins, serif !important;
+              font-size: 28px;
+              font-style: normal;
+              font-weight: 500;
+              letter-spacing: 0;
+              color: #272727;
+            }
+          }
+        }
+
+        .landing-page-section-4-card-details-action {
+          width: 100%;
+          display: flex;
+          align-items: end;
+          justify-content: end;
+
+          button {
+            border: none;
+            width: 52px;
+            height: 52px;
+            /* UI Properties */
+            background: #E62E44 0 0 no-repeat padding-box;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  .campaign-container-2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+    button.donate {
+      width: 170px;
+      height: 50px;
+      /* UI Properties */
+      background: #E62E44 0% 0% no-repeat padding-box;
+      border-radius: 10px;
+      font-family: Poppins, serif !important;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+    }
+
+    button.option {
+      width: 170px;
+      height: 50px;
+      /* UI Properties */
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      border-radius: 10px;
+      font: normal normal medium 18px/30px Poppins;
+      font-family: Poppins, serif !important;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      letter-spacing: 0;
+      color: #E62B4A;
+    }
+  }
+
+
+  .campaign-container-4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 134px;
+    align-items: center;
+    width: 100%;
+
+    .campaign-container-4-small-title {
+      width: 74px;
+      height: 24px;
+      margin-bottom: 8px;
+      /* UI Properties */
+      span {
+        text-align: left;
+        //font: normal normal 600 16px/25px Poppins;
+        font-family: Poppins, serif !important;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: 0;
+        color: #E52D43;
+      }
+
+    }
+
+    .campaign-container-4-big-title {
+
+      height: 74px;
+      /* UI Properties */
+      span {
+        text-align: center;
+        //font: normal normal 600 48px/74px Poppins;
+        font-family: Poppins, serif !important;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 74px;
+        color: #272727;
+      }
+
+    }
+
+    .campaign-container-4-description {
+      width: 740px;
+      height: 60px;
+      margin-top: 30px;
+      /* UI Properties */
+      span {
+        text-align: center;
+        //font: normal normal normal 18px/30px Poppins;
+        font-family: Poppins, serif !important;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: normal;
+        letter-spacing: 0;
+        color: #868686;
+      }
+
+    }
+
+    .campaign-container-4-cards {
+      margin-top: 64px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      .campaign-container-4-card {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+        width: 374px;
+        height: 671px;
+
+        .campaign-container-4-card-image {
+          width: 374px;
+          height: 374px;
+          background-color: #E62E44;
+        }
+
+        .campaign-container-4-card-category {
+
+          height: 21px;
+          margin-bottom: 12px;
+          /* UI Properties */
+          span {
+            text-align: left;
+            //font: normal normal medium 14px/21px Poppins;
+            font-family: Poppins, serif !important;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            letter-spacing: 0px;
+            color: #E62B4A;
+          }
+
+        }
+
+        .campaign-container-4-card-title {
+          width: 334px;
+          height: 64px;
+          /* UI Properties */
+          span {
+            text-align: left;
+            font: normal normal medium 20px/32px Poppins;
+            font-family: Poppins, serif !important;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            letter-spacing: 0px;
+            line-height: 40px;
+            color: #272727;
+          }
+
+        }
+
+        .campaign-container-4-card-persona {
+          width: 334px;
+          height: 21px;
+          margin-top: 20px;
+          /* UI Properties */
+          span {
+            text-align: left;
+            font: normal normal normal 14px/21px Poppins;
+            font-family: Poppins, serif !important;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: normal;
+            letter-spacing: 0px;
+            color: #787878;
+          }
+
+        }
+
+        .campaign-container-4-card-progress {
+          width: 100%
+        }
+
+        .campaign-container-4-card-info {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+
+          .campaign-container-4-card-info-price {
+            .campaign-container-4-card-info-price-value {
+              //font: normal normal 600 20px/32px Poppins;
+              font-family: Poppins, serif !important;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 600;
+              letter-spacing: 0px;
+              color: #E62B4A;
+            }
+
+            .campaign-container-4-card-info-price-type {
+              //font: normal normal normal 20px/32px Poppins;
+              font-family: Poppins, serif !important;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: normal;
+              letter-spacing: 0px;
+              color: #787878;
+            }
+          }
+
+          .campaign-container-4-card-info-percentage {
+            width: 42px;
+            height: 32px;
+            /* UI Properties */
+            span {
+              text-align: left;
+              //font: normal normal normal 20px/32px Poppins;
+              font-family: Poppins, serif !important;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: normal;
+              letter-spacing: 0px;
+              color: #787878;
+            }
+
+          }
+        }
+
+        .campaign-container-4-card-days {
+
+          height: 32px;
+          /* UI Properties */
+
+          span {
+            text-align: left;
+            //font: normal normal normal 20px/32px Poppins;
+            font-family: Poppins, serif !important;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: normal;
+            letter-spacing: 0px;
+            color: #272727;
+          }
+        }
+      }
+
+
+    }
+  }
+
+  .campaign-container-5 {
+    margin-top: 160px;
+    width: 100%;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+
+    .campaign-container-5-small-title {
+      width: 53px;
+      height: 24px;
+      /* UI Properties */
+      span {
+        text-align: left;
+        //font: normal normal 600 16px/25px Poppins;
+        font-family: Poppins, serif !important;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: 0px;
+        color: #E62B4A;
+      }
+
+    }
+
+    .campaign-container-5-description {
+      display: flex;
+      justify-content: space-between;
+
+
+      .campaign-container-5-description-title {
+
+        height: 222px;
+        /* UI Properties */
+        span {
+          text-align: justify-all;
+          line-height: 90px;
+          font: normal normal 600 48px/74px Poppins;
+          font-family: Poppins, serif !important;
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 600;
+          color: #272727
+        }
+
+      }
+
+      .campaign-container-5-description-sub {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .campaign-container-5-description-sub-text {
+          width: 541px;
+          height: 60px;
+          /* UI Properties */
+          span {
+            text-align: left;
+            //font: normal normal normal 18px/30px Poppins;
+            font-family: Poppins, serif !important;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: normal;
+            letter-spacing: 0px;
+            color: #787878;
+          }
+
+        }
+      }
+    }
+
+    .campaign-container-5-cards {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+
+      .campaign-container-5-card {
+        width: 580px;
+        height: 244px;
+        /* UI Properties */
+        background: #FFFFFF 0% 0 no-repeat padding-box;
+        box-shadow: 0px 4px 400px #0000000D;
+        display: flex;
+        justify-content: space-between;
+
+        .campaign-container-5-card-image {
+          width: 228px;
+          height: 244px;
+          /* UI Properties */
+          background: #E62E44;
+        }
+
+        .campaign-container-5-card-details {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          padding-top: 10px;
+
+          .campaign-container-5-card-details-title {
+            width: 312px;
+            height: 65px;
+            padding: 10px;
+            /* UI Properties */
+            span {
+              text-align: left;
+              //font: normal normal medium 20px/30px Poppins;
+              font-family: Poppins, serif !important;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 500;
+              letter-spacing: 0px;
+              color: #272727;
+            }
+
+          }
+
+          .campaign-container-5-card-details-description {
+            width: 312px;
+            height: 72px;
+            padding: 10px;
+            /* UI Properties */
+            span {
+              text-align: left;
+              //font: normal normal normal 14px/24px Poppins;
+              font-family: Poppins, serif !important;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: normal;
+              letter-spacing: 0px;
+              color: #787878;
+            }
+
+          }
+
+          .campaign-container-5-card-details-action {
+            width: 100%;
+            display: flex;
+            align-items: end;
+            justify-content: end;
+
+            button {
+              border: none;
+              width: 52px;
+              height: 52px;
+              /* UI Properties */
+              background: #E62E44 0 0 no-repeat padding-box;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .campaign-container-6 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 134px;
+    align-items: center;
+    width: 100%;
+
+    .campaign-container-6-small-title {
+      width: 74px;
+      height: 24px;
+      margin-bottom: 8px;
+      /* UI Properties */
+      span {
+        text-align: left;
+        //font: normal normal 600 16px/25px Poppins;
+        font-family: Poppins, serif !important;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: 0;
+        color: #E52D43;
+      }
+
+    }
+
+    .campaign-container-6-big-title {
+
+      height: 74px;
+      /* UI Properties */
+      span {
+        text-align: center;
+        //font: normal normal 600 48px/74px Poppins;
+        font-family: Poppins, serif !important;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 74px;
+        color: #272727;
+      }
+
+    }
+
+    .campaign-container-6-description {
+      width: 574px;
+      height: 69px;
+      margin-top: 30px;
+      /* UI Properties */
+      span {
+        text-align: center;
+        //font: normal normal normal 18px/30px Poppins;
+        font-family: Poppins, serif !important;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: normal;
+        letter-spacing: 0;
+        color: #868686;
+      }
+
+    }
+
+    mat-accordion {
+      width: 100%;
+
+      mat-expansion-panel {
+        width: 100%;
+
+        /* UI Properties */
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 4px 400px #0000000D;
+        margin-top: 24px;
+
+        p {
+          text-align: left;
+          font: normal normal normal 18px/32px Poppins;
+          font-family: Poppins, serif !important;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: normal;
+          letter-spacing: 0px;
+          color: #787878;
+        }
+
+        mat-expansion-panel-header {
+          height: 112px;
+
+          mat-panel-title {
+            width: 710px;
+            height: 30px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal medium 28px/32px Poppins;
+            font-family: Poppins, serif !important;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 500;
+            letter-spacing: 0px;
+            color: #272727;
+          }
+        }
+
+      }
+    }
+  }
+
+  .campaign-container-7 {
+    margin-top: 50px;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+
+    .campaign-container-7-small-title {
+      width: 135px;
+      height: 56px;
+      /* UI Properties */
+      span {
+        text-align: left;
+        //font: normal normal 600 16px/25px Poppins;
+        font-family: Poppins, serif !important;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: 0px;
+        color: #E62B4A;
+      }
+
+
+    }
+
+    .campaign-container-7-story {
+      width: 100%;
+      display: flex;
+
+      .campaign-container-7-story-text {
+        .campaign-container-7-story-text-title{
+
+          height: 74px;
+          /* UI Properties */
+          span{
+            line-height: 60px;
+            text-align: left;
+            //font: normal normal 600 48px/74px Poppins;
+            letter-spacing: 0px;
+            color: #272727;
+            font-family: Poppins, serif !important;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 600;
+          }
+
+        }
+        .campaign-container-7-story-text-details{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          .campaign-container-7-story-text-details-1{
+            padding-right: 20px;
+            height: 189px;
+            /* UI Properties */
+            span{
+              text-align: left;
+              font: normal normal normal 18px/30px Poppins;
+              font-family: Poppins, serif !important;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: normal;
+              letter-spacing: 0px;
+              color: #868686;
+            }
+
+          }
+        }
+      }
+
+      .campaign-container-7-story-image {
+        min-width: 391px;
+        height: 838px;
+        background: #E62E44;
+      }
+    }
+
+  }
+}

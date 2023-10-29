@@ -7,7 +7,7 @@
         Nous sommes une entreprise de financement participatif fondée pour aider les start-ups qui souhaitent démarrer leur entreprise à accélérer leurs réalisations. Lancez votre entreprise ici.
       </span></div>
       <div>
-        <button class="landing-page-section-1-description-button"><span>Find a Project</span></button>
+        <button [routerLink]="'/main/campaign'" class="landing-page-section-1-description-button"><span>Find a Project</span></button>
       </div>
     </div>
     <div class="landing-page-section-1-image">
@@ -40,7 +40,7 @@
       </div>
     </div>
     <div class="landing-page-section-3-category col-8">
-      <div class="landing-page-section-3-category-card">
+      <div  class="landing-page-section-3-category-card">
         <div class="landing-page-section-3-category-card-description">
           <div class="landing-page-section-3-category-card-description-title"><span>Design & Tech</span></div>
           <div class="landing-page-section-3-category-card-description-text"><span>Projets dans la catégorie de la technologie et du design, y compris les projets les plus nombreux en raison des développements technologiques rapides.</span>
@@ -50,7 +50,7 @@
           <button class="text-white">/</button>
         </div>
       </div>
-      <div class="landing-page-section-3-category-card">
+      <div  class="landing-page-section-3-category-card">
         <div class="landing-page-section-3-category-card-description">
           <div class="landing-page-section-3-category-card-description-title"><span>Design & Tech</span></div>
           <div class="landing-page-section-3-category-card-description-text"><span>Projets dans la catégorie de la technologie et du design, y compris les projets les plus nombreux en raison des développements technologiques rapides.</span>
@@ -76,10 +76,10 @@
     </div>
     <div class="landing-page-section-4-cards">
       <div class="landing-page-section-4-card row mx-0">
-        <div class="col-6  landing-page-section-4-card-image">
+        <div  class="col-6  landing-page-section-4-card-image">
           //TODO:IMAGE
         </div>
-        <div class="col-6 landing-page-section-4-card-details">
+        <div  class="col-6 landing-page-section-4-card-details">
           <div class="landing-page-section-4-card-details-title">
             <span>Mas Adif : Keeb - 60% Mechanical Keyboard</span>
           </div>
@@ -113,10 +113,10 @@
         </div>
       </div>
       <div class="landing-page-section-4-card row mx-0">
-        <div class="col-6  landing-page-section-4-card-image">
+        <div  class="col-6  landing-page-section-4-card-image">
           //TODO:IMAGE
         </div>
-        <div class="col-6 landing-page-section-4-card-details">
+        <div  class="col-6 landing-page-section-4-card-details">
           <div class="landing-page-section-4-card-details-title">
             <span>Mas Adif : Keeb - 60% Mechanical Keyboard</span>
           </div>
@@ -151,7 +151,7 @@
       </div>
     </div>
   </div>
-  <div class="landing-page-section-5">
+  <div id="project" class="landing-page-section-5">
     <div class="landing-page-section-5-small-title">
       <span>Projet</span>
     </div>
@@ -163,7 +163,7 @@
 Nous sommes une entreprise de financement participatif fondée pour aider les startups qui souhaitent démarrer leur entreprise à accélérer leurs réalisations      </span>
     </div>
     <div class="landing-page-section-5-cards">
-      <div class="landing-page-section-5-card">
+      <div  class="landing-page-section-5-card">
         <div class="px-2 landing-page-section-5-card-image"></div>
         <div class="px-2 mt-2 landing-page-section-5-card-category">
           <span>DESIGN & TECH</span>
@@ -192,7 +192,7 @@ Nous sommes une entreprise de financement participatif fondée pour aider les st
         </div>
 
       </div>
-      <div class="landing-page-section-5-card">
+      <div  class="landing-page-section-5-card">
         <div class="px-2 landing-page-section-5-card-image"></div>
         <div class="px-2 mt-2 landing-page-section-5-card-category">
           <span>DESIGN & TECH</span>
@@ -221,7 +221,7 @@ Nous sommes une entreprise de financement participatif fondée pour aider les st
         </div>
 
       </div>
-      <div class="landing-page-section-5-card">
+      <div  class="landing-page-section-5-card">
         <div class="px-2 landing-page-section-5-card-image"></div>
         <div class="px-2 mt-2 landing-page-section-5-card-category">
           <span>DESIGN & TECH</span>
@@ -278,7 +278,7 @@ Nous sommes une entreprise de financement participatif fondée pour aider les st
             <span>Nos conseils pour créer une page de projet qui soit honnête, ouverte et transparente à la fois dans le texte et les éléments visuels.</span>
           </div>
           <div class="landing-page-section-6-card-details-action">
-            <button>/</button>
+            <button [routerLink]="'/main/campaign'">/</button>
           </div>
         </div>
       </div>
@@ -292,7 +292,7 @@ Nous sommes une entreprise de financement participatif fondée pour aider les st
             <span>L'hiver est la saison de l'année où de nombreuses personnes commencent à passer la majeure partie de leur temps ... l'intérieur. Vous voudrez sortir à l'extérieur pour...</span>
           </div>
           <div class="landing-page-section-6-card-details-action">
-            <button>/</button>
+            <button [routerLink]="'/main/campaign'">/</button>
           </div>
         </div>
       </div>
@@ -308,7 +308,7 @@ Nous sommes une entreprise de financement participatif fondée pour aider les st
             <span>Google Calendar provides users with an easy way to track their day-to-day tasks with minimal issues.</span>
           </div>
           <div class="landing-page-section-6-card-details-action">
-            <button>/</button>
+            <button [routerLink]="'/main/campaign'">/</button>
           </div>
         </div>
       </div>
@@ -322,7 +322,7 @@ Nous sommes une entreprise de financement participatif fondée pour aider les st
             <span>Are you encountering meeting mortification? There are ways to tweak the day and time of your meetings</span>
           </div>
           <div class="landing-page-section-6-card-details-action">
-            <button>/</button>
+            <button [routerLink]="'/main/campaign'">/</button>
           </div>
         </div>
       </div>

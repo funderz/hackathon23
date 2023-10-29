@@ -4,7 +4,7 @@
   </div>
   <div class="header-items col-6 my-0">
     <ul class="my-0">
-      <li>Accueille</li>
+      <li [routerLink]="'/main/home'">Accueille</li>
       <li>Projet</li>
       <li>Services</li>
       <li>Blog</li>
@@ -14,6 +14,6 @@
   </div>
   <div class="header-actions col-4 my-0">
     <button class="start">Start a Project</button>
-    <button class="log">Log in</button>
+    <button [routerLink]="'/'" class="log">Log in</button>
   </div>
 </div>
